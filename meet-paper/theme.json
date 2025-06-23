@@ -3,9 +3,14 @@
   "version": 2,
   "settings": {
     "color": {
+      "custom": true,
+      "customGradient": true,
       "palette": [
+        {"slug": "background", "color": "#ffffff", "name": "Background"},
+        {"slug": "foreground", "color": "#1a1a1a", "name": "Foreground"},
         {"slug": "primary", "color": "#3366cc", "name": "Primary"},
-        {"slug": "secondary", "color": "#ff6600", "name": "Secondary"}
+        {"slug": "secondary", "color": "#ff6600", "name": "Secondary"},
+        {"slug": "neutral", "color": "#666666", "name": "Neutral"}
       ],
       "gradients": [
         {"slug": "sunset", "gradient": "linear-gradient(135deg,#ff6600,#3366cc)", "name": "Sunset"}
@@ -15,21 +20,52 @@
       "contentSize": "650px",
       "wideSize": "1200px"
     },
+    "spacing": {
+      "units": ["px", "em", "rem", "%", "vh", "vw"],
+      "blockGap": "1.5rem"
+    },
     "typography": {
+      "customFontSize": true,
+      "customLineHeight": true,
+      "fontFamilies": [
+        {"slug": "system", "fontFamily": "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif", "name": "System"},
+        {"slug": "serif", "fontFamily": "Georgia, serif", "name": "Serif"}
+      ],
       "fontSizes": [
         {"slug": "small", "size": "0.875rem", "name": "Small"},
         {"slug": "normal", "size": "1rem", "name": "Normal"},
-        {"slug": "large", "size": "1.5rem", "name": "Large"}
+        {"slug": "medium", "size": "1.25rem", "name": "Medium"},
+        {"slug": "large", "size": "1.5rem", "name": "Large"},
+        {"slug": "xlarge", "size": "2rem", "name": "Extra Large"}
       ]
     }
   },
   "styles": {
     "spacing": {
       "blockGap": "1.5rem"
+    },
+    "color": {
+      "background": "#ffffff",
+      "text": "#1a1a1a",
+      "link": "#3366cc"
     }
   },
   "patterns": [
     "hero",
     "connect-wallet"
+  ],
+  "styleVariations": [
+    {
+      "name": "dark",
+      "title": "Dark",
+      "description": "Dark mode colors",
+      "styles": {
+        "color": {
+          "background": "#1a1a1a",
+          "text": "#f0f0f0",
+          "link": "#66ccff"
+        }
+      }
+    }
   ]
 }

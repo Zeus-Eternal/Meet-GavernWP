@@ -8,7 +8,9 @@ Features
 * Block-based templates and template parts.
 * Custom block patterns for quickly building layouts.
 * Includes a Connect Wallet pattern demonstrating Web3 integration.
-* Configurable styles through theme.json.
+* Configurable styles through a feature‑rich `theme.json`.
+* Robust typography, layout, and color controls including dark mode.
+* Vector based SVG logos replace the old raster images.
 * Responsive design out of the box.
 * Optional Web3-powered login and NFT support.
 

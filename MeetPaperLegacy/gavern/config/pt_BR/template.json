@@ -1,10 +1,10 @@
 {
 	"template": {
-		"name": "MeetGavernWP",
-		"update_name": "gk_meet_gavern_wp",
-		"date": "23/11/2012",
-		"version": "1.5",
-		"description": "GavickPro Wordpress tema livre baseado no framework GavernWP"
+                "name": "Meet Paper Legacy",
+                "update_name": "gk_meetpaper_legacy",
+                "date": "23/11/2012",
+                "version": "1.5",
+                "description": "Versão legada do tema Paper construída sobre o framework GavernWP"
 	},
 	"developer_config": {
 		"visibility": {
