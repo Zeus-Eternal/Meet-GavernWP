@@ -1,0 +1,40 @@
+/*
+Theme Name: Meet Paper Legacy
+Theme URI: https://agustealo.com/meet-paper
+Description: Legacy version of the original Meet GavernWP theme, updated for the Paper branding. It retains the classic features and layout while remaining compatible with modern versions of WordPress.
+License: GNU GPL v.2.0
+License URI: LICENSE.txt
+Version: 1.17
+Author: Paper Team
+Author URI: https://agustealo.com
+Tags: gray, two-columns, flexible-width
+*/
+
+/**
+ *
+ * Basic code convention:
+ *
+ * sel {
+ * // rules in the alphabetic order
+ * }
+ *
+ * Content of the CSS files
+ * 
+ * 0. Normalize CSS styles (normalize.css)
+ * 1. Global elements (template.css)
+ * 2. Template containers (template.css)
+ * 3. Template structure (template.css) 
+ * 4. Widget styles (template.css)
+ * 5. Wordpress elements styling (wp.css)
+ * 6. Shortcodes (shortcodes.*.css)
+ * 7. Template additional features styles (stuff.css)
+ * 8. Additional WP extensions styles (wp.extensions.css)
+ * 9. (optional) Additional 3rd party extensions styles (extensions.css)
+ * 10. Tablet code (tablet.css)
+ * 11. Mobile code (mobile.css)
+ * 12. IE code fixes (ie*.css)
+ * 13. Template colours and styles (style*.css)
+ * 14. RTL support (rtl.css)
+ * 15. (optional) Override for all CSS files (override.css)
+ *
+ **/
