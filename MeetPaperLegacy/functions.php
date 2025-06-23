@@ -8,7 +8,7 @@
  *
  * @package WordPress
  * @subpackage Paper
- * @since Meet Paper Legacy 1.0
+ * @since Meet Paper 0.9.1
  **/
 
 if(!function_exists('gavern_file')) {
@@ -187,10 +187,7 @@ function gavern_enqueue_admin_js_and_css() {
 	wp_enqueue_script('shortcodes.js', gavern_file_uri('gavern/config/'.$language.'/shortcodes.js'));
 }
 // this action enqueues scripts and styles: 
-// http://wpdevel.wordpress.com/2011/12/12/use-wp_enqueue_scripts-not-wp_print_styles-to-enqueue-scripts-and-styles-for-the-frontend/
 add_action('admin_enqueue_scripts', 'gavern_enqueue_admin_js_and_css');
 
 // remove the generator metatag due security reasons
 remove_action('wp_head', 'wp_generator');
-
-// EOF

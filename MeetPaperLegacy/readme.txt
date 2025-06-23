@@ -1,4 +1,4 @@
-= MEET PAPER LEGACY =
+= MEET PAPER =
 
 * by Agustealo, https://agustealo.com
 

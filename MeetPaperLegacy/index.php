@@ -7,7 +7,7 @@
  *
  * @package WordPress
  * @subpackage Paper
- * @since Meet Paper Legacy 1.0
+ * @since Meet Paper 0.9.1
  **/
 
 global $tpl;
