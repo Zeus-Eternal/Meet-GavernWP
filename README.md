@@ -1,14 +1,10 @@
-Meet GavernWP
+Meet Paper
 ===========================
 
 A free, responsive WordPress theme based upon our powerful GavernWP framework
 -------------------------
 
-_Template details: [VIEW DETAILS](http://www.gavick.com/wordpress-themes/meet-gavernwp,97.html)_
-
-_Template DEMO: [VIEW DEMO](http://demo.gavick.com/wordpress/meetgavernwp/)_
-
-_Template files: [DOWNLOAD](http://www.gavick.com/download/download-wordpress-themes/meetgavernwp.html)_
+_Template Detail: [VIEW DEMO](http://agustealo.com)_meetgavernwp.html)_
 
 We happily release to the WordPress community our first-ever FREE theme for WordPress 3.4, called Meet GavernWP. Based upon a brand-new version of the GavernWP framework, this wonderful theme boasts interesting new features. 
 
@@ -28,4 +24,4 @@ pt_BR - Brazilian Portuguese
 
 More details you can find here:
 
-* [GavernWP framework](http://www.gavick.com/wordpress-features)
+* [Paper framework](http://www.agustealo.com/paper)
