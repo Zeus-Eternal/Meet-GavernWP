@@ -1,27 +1,20 @@
 Meet Paper
 ===========================
 
-A free, responsive WordPress theme based upon our powerful GavernWP framework
+Meet Paper is a modern block-based WordPress theme rebuilt from the classic Meet GavernWP design. It uses WordPress Full Site Editing features with block templates and patterns.
+
+Features
 -------------------------
+* Block-based templates and template parts.
+* Custom block patterns for quickly building layouts.
+* Configurable styles through theme.json.
+* Responsive design out of the box.
 
-_Template Detail: [VIEW DEMO](http://agustealo.com)_meetgavernwp.html)_
-
-We happily release to the WordPress community our first-ever FREE theme for WordPress 3.4, called Meet GavernWP. Based upon a brand-new version of the GavernWP framework, this wonderful theme boasts interesting new features. 
-
-This is a must-have theme for WordPress users, particularly with its built-in support for Responsive Web Design.
-
-This theme allows you to easily produce websites based upon the Responsive Web Design concept, thanks to functions provided by the GavernWP framework. In addition, use of the JSON format makes modifying the management panel and the theme's configuration a breeze!
-
-This theme allows rules for widgets to be specified, such as identification of the subpages upon which a given widget is visible, and to whom and to what device types it is visible. Widget styling is also made to be extremely easy!
-
-The theme's typography includes many solutions and ideas for enriching entry content. Moreover, built-in typography buttons located in the post editor make all of these elements easily accessible.
-
-This theme comes bundled with many features beyond what's mentioned here. So don't wait – check out the benefits of this new, no-cost WordPress theme now!
+This repository contains the classic theme for reference in `MeetGavernWP` and a new block theme in `meet-paper/`.
 
 Languages
 -------------------------
 pt_BR - Brazilian Portuguese
 
 More details you can find here:
-
 * [Paper framework](http://www.agustealo.com/paper)
