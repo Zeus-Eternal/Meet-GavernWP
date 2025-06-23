@@ -11,6 +11,7 @@
         {"slug": "primary", "color": "#3366cc", "name": "Primary"},
         {"slug": "secondary", "color": "#ff6600", "name": "Secondary"},
         {"slug": "neutral", "color": "#666666", "name": "Neutral"}
+        {"slug": "secondary", "color": "#ff6600", "name": "Secondary"}
       ],
       "gradients": [
         {"slug": "sunset", "gradient": "linear-gradient(135deg,#ff6600,#3366cc)", "name": "Sunset"}
@@ -37,6 +38,11 @@
         {"slug": "medium", "size": "1.25rem", "name": "Medium"},
         {"slug": "large", "size": "1.5rem", "name": "Large"},
         {"slug": "xlarge", "size": "2rem", "name": "Extra Large"}
+    "typography": {
+      "fontSizes": [
+        {"slug": "small", "size": "0.875rem", "name": "Small"},
+        {"slug": "normal", "size": "1rem", "name": "Normal"},
+        {"slug": "large", "size": "1.5rem", "name": "Large"}
       ]
     }
   },
@@ -67,5 +73,9 @@
         }
       }
     }
+  },
+  "patterns": [
+    "hero",
+    "connect-wallet"
   ]
 }

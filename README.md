@@ -10,6 +10,7 @@ Features
 * Includes a Connect Wallet pattern demonstrating Web3 integration.
 * Configurable styles through a feature‑rich `theme.json`.
 * Robust typography, layout, and color controls including dark mode.
+* Configurable styles through theme.json.
 * Responsive design out of the box.
 * Optional Web3-powered login and NFT support.
 
