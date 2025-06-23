@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="meetpaperlegacy_seo_description" />
+        <key name="meetpaperlegacy_seo_blogname" />
+        <key name="meetpaperlegacy_seo_homepage_desc_value" />
+        <key name="meetpaperlegacy_seo_homepage_keywords_value" />
+    </admin-texts>   
+</wpml-config>
