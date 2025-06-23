@@ -17,7 +17,6 @@
 				"type": "Switcher",
         "label": "Paper Logo in the footer",
         "tooltip": "Enable display of the Paper logo in the theme footer.",
-
 				"default": "Y",
 				"class": "",
 				"visibility": ""

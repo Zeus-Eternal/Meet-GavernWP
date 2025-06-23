@@ -27,7 +27,6 @@ function gavern_importexport_options() {
 ?>
 	<div class="gkWrap wrap">
     <h1><big><?php echo $tpl->full_name; ?></big><small><?php _e('Based on the Paper framework', GKTPLNAME); ?></small></h1>
-
 		<div class="gkImport">
 			<h2><?php _e('Import Template Settings', GKTPLNAME)?></h2>
 			<?php

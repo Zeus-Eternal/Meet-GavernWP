@@ -9,9 +9,9 @@
     "use strict";
 
     jQuery(document).ready(function () {
-        var update_url = 'https://www.gavick.com/updates/json/tmpl,component/query,product/product,' + $GK_TEMPLATE_UPDATE_NAME;
+        var update_url = 'https://agustealo.com/updates/json/tmpl,component/query,product/product,' + $GK_TEMPLATE_UPDATE_NAME;
         var update_div = jQuery('#gkTemplateUpdates');
-        update_div.html('<div id="gkUpdateDiv"><span id="gkLoader"></span>Loading update data from GavicPro Update service...</div>');
+        update_div.html('<div id="gkUpdateDiv"><span id="gkLoader"></span>Loading update data from Agustealo Update service...</div>');
 
         jQuery.getScript(update_url, function () {
             var content = '';

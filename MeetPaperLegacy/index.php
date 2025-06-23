@@ -1,13 +1,13 @@
 <?php
 
 /**
- * GavernWP main template file
+ * Meet Paper Legacy main template file
  *
  * This file is loaded only when user openes the site using the template
  *
  * @package WordPress
- * @subpackage GavernWP
- * @since GavernWP 1.0
+ * @subpackage Paper
+ * @since Meet Paper 0.9.1
  **/
 
 global $tpl;

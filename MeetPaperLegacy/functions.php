@@ -1,14 +1,14 @@
 <?php
 
 /**
- * GavernWP functions and definitions
+ * Paper Framework functions and definitions
  *
  * This file contains core framework operations. It is always
  * loaded before the index.php file no the front-end
  *
  * @package WordPress
- * @subpackage GavernWP
- * @since GavernWP 1.0
+ * @subpackage Paper
+ * @since Meet Paper 0.9.1
  **/
 
 if(!function_exists('gavern_file')) {
@@ -133,11 +133,11 @@ function gavern_theme_setup(){
 		// check the goto value
 		switch ($_GET['goto']) {
 			// make proper redirect
-			case 'gavick-com':
-				wp_redirect("http://www.gavick.com");
+			case 'agustealo-com':
+				wp_redirect("https://agustealo.com");
 				break;
 			case 'wiki':
-				wp_redirect("http://www.gavick.com/documentation");
+				wp_redirect("https://agustealo.com/docs");
 				break;
 			// or use default redirect
 			default:
@@ -187,10 +187,7 @@ function gavern_enqueue_admin_js_and_css() {
 	wp_enqueue_script('shortcodes.js', gavern_file_uri('gavern/config/'.$language.'/shortcodes.js'));
 }
 // this action enqueues scripts and styles: 
-// http://wpdevel.wordpress.com/2011/12/12/use-wp_enqueue_scripts-not-wp_print_styles-to-enqueue-scripts-and-styles-for-the-frontend/
 add_action('admin_enqueue_scripts', 'gavern_enqueue_admin_js_and_css');
 
 // remove the generator metatag due security reasons
 remove_action('wp_head', 'wp_generator');
-
-// EOF

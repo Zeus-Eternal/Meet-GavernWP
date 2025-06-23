@@ -40,7 +40,6 @@
                <img src="<?php echo gavern_file_uri('images/paper-logo.svg'); ?>" class="gk-framework-logo" alt="Paper" />
 		<?php endif; ?>
     <p class="gk-disclaimer">Copyright &copy; 2012. Designed by the <a href="https://agustealo.com">Paper Team</a></p>
-
 		<p class="gk-disclaimer">Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
 	</footer>
 	

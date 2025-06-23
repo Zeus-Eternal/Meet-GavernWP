@@ -352,7 +352,7 @@ if(get_option($tpl->name . '_shortcodes1_state', 'Y') == 'Y') {
 		// [button]text[/button]
 		// [button style="2"]text[/button]
 		// with URL
-		// [button style="2" url="http://gavick.com"]text[/button]
+		// [button style="2" url="https://agustealo.com"]text[/button]
 		function gavern_ts_button($atts, $content) {   
 			// get the optional style value
 			extract(shortcode_atts( array('style' => '1', 'url' => ''), $atts));
@@ -503,7 +503,7 @@ if(get_option($tpl->name . '_shortcodes2_state', 'Y') == 'Y') {
 		// Usage:
 		// [tip label="Label"]Text of the tooltip[/tip]
 		// [tip label="Label" style="1"]Text of the tooltip[/tip]
-		// [tip label="Label" style="1" href="http://gavick.com"]Text of the tooltip[/tip]
+		// [tip label="Label" style="1" href="https://agustealo.com"]Text of the tooltip[/tip]
 		function gavern_ies_tooltips($atts, $content) {   
 			// get the optional style value
 			extract(shortcode_atts( array('href' => '', 'label' => '', 'style' => '1'), $atts));

@@ -31,14 +31,14 @@ if(!function_exists('gavern_admin_menu')) {
 		// getting access to the template global object. 
 		global $tpl;
 		// set the default icon path
-    $icon_path = gavern_file_uri('images/back-end/small_logo.svg');
+               $icon_path = gavern_file_uri('images/back-end/small_logo.svg');
 		// check if user set his own icon and then replace the default path
 		if(get_option($tpl->name . "_branding_admin_page_image") != '') {
 			$icon_path = get_option($tpl->name . "_branding_admin_page_image");
 		}
 		// creating main menu item for the template settings
-  $plugin_page = add_menu_page(
-          'Paper Framework',
+    $plugin_page = add_menu_page(
+      'Paper Framework',
 			$tpl->config['template']->name, 
 			'manage_options',
 			'gavern-menu', 
@@ -102,14 +102,14 @@ if(!function_exists('gavern_admin_menu')) {
 		}
 		
 		// checking if showing GavickPro information is enabled
-		if($tpl->config['developer_config']->visibility->gavickpro_website == 'true') {
+		if($tpl->config['developer_config']->visibility->agustealo_website == 'true') {
 			//
 			$plugin_page = add_submenu_page( 
 				'gavern-menu', 
 				$tpl->config['template']->name, 
-				__('GavickPro Website', GKTPLNAME), 
+				__('Agustealo Website', GKTPLNAME), 
 				'manage_options',
-				'themes.php?goto=gavick-com' );
+				'themes.php?goto=agustealo-com' );
 		}
 	}
 

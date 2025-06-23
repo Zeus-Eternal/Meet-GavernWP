@@ -1,7 +1,7 @@
 # Translation of the WordPress theme Meet Paper Legacy by the Paper team.
-# Copyright (C) GavickPro 2012
+# Copyright (C) Agustealo 2012
 # This file is distributed under the same license as the PACKAGE package.
-# GavickPro <info@gavick.com>, 2012.
+# Agustealo <info@agustealo.com>, 2012.
 #
 msgid ""
 msgstr ""
@@ -290,8 +290,8 @@ msgid "GK Social Icons"
 msgstr "Ícones de Rede Social GK"
 
 #: gavern/functions.php:109
-msgid "GavickPro Website"
-msgstr "Website GavickPro "
+msgid "Agustealo Website"
+msgstr "Website Agustealo "
 
 #: gavern/helpers/helpers.layout.fragments.php:400
 msgid "Google Profile"
