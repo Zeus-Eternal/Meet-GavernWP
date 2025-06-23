@@ -1,4 +1,4 @@
-# Translation of the WordPress theme Meet GavernWP by the GavickPro team.
+# Translation of the WordPress theme Meet Paper Legacy by the Paper team.
 # Copyright (C) GavickPro 2012
 # This file is distributed under the same license as the PACKAGE package.
 # GavickPro <info@gavick.com>, 2012.
@@ -6,7 +6,7 @@
 #, fuzzy
 msgid   ""
 msgstr  ""
-"Project-Id-Version: MeetGavernWP\n"
+"Project-Id-Version: MeetPaperLegacy\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-02 10:14+0200\n"
 "PO-Revision-Date: 2015-08-20 12:03+1100\n"
