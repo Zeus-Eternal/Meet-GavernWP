@@ -6,16 +6,30 @@
       "palette": [
         {"slug": "primary", "color": "#3366cc", "name": "Primary"},
         {"slug": "secondary", "color": "#ff6600", "name": "Secondary"}
+      ],
+      "gradients": [
+        {"slug": "sunset", "gradient": "linear-gradient(135deg,#ff6600,#3366cc)", "name": "Sunset"}
       ]
     },
     "layout": {
       "contentSize": "650px",
       "wideSize": "1200px"
+    },
+    "typography": {
+      "fontSizes": [
+        {"slug": "small", "size": "0.875rem", "name": "Small"},
+        {"slug": "normal", "size": "1rem", "name": "Normal"},
+        {"slug": "large", "size": "1.5rem", "name": "Large"}
+      ]
     }
   },
   "styles": {
     "spacing": {
       "blockGap": "1.5rem"
     }
-  }
+  },
+  "patterns": [
+    "hero",
+    "connect-wallet"
+  ]
 }
