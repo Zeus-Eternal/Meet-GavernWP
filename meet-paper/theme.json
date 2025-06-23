@@ -39,10 +39,18 @@
         {"slug": "large", "size": "1.5rem", "name": "Large"},
         {"slug": "xlarge", "size": "2rem", "name": "Extra Large"}
     "typography": {
+      "customFontSize": true,
+      "customLineHeight": true,
+      "fontFamilies": [
+        {"slug": "system", "fontFamily": "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif", "name": "System"},
+        {"slug": "serif", "fontFamily": "Georgia, serif", "name": "Serif"}
+      ],
       "fontSizes": [
         {"slug": "small", "size": "0.875rem", "name": "Small"},
         {"slug": "normal", "size": "1rem", "name": "Normal"},
-        {"slug": "large", "size": "1.5rem", "name": "Large"}
+        {"slug": "medium", "size": "1.25rem", "name": "Medium"},
+        {"slug": "large", "size": "1.5rem", "name": "Large"},
+        {"slug": "xlarge", "size": "2rem", "name": "Extra Large"}
       ]
     }
   },
@@ -77,5 +85,19 @@
   "patterns": [
     "hero",
     "connect-wallet"
+  ],
+  "styleVariations": [
+    {
+      "name": "dark",
+      "title": "Dark",
+      "description": "Dark mode colors",
+      "styles": {
+        "color": {
+          "background": "#1a1a1a",
+          "text": "#f0f0f0",
+          "link": "#66ccff"
+        }
+      }
+    }
   ]
 }

@@ -241,9 +241,9 @@ function gavern_die_handler() {
  **/
 
 function gavern_custom_die_handler( $message, $title = '', $args = array() ) {
-	if(!defined('GKTPLNAME')) {
-		define('GKTPLNAME', 'MeetGavernWP');
-	}
+        if(!defined('GKTPLNAME')) {
+                define('GKTPLNAME', 'MeetPaperLegacy');
+        }
 	
 	$defaults = array( 'response' => 404 );
 	$r = wp_parse_args($args, $defaults);

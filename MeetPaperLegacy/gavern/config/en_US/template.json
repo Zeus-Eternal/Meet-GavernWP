@@ -1,10 +1,10 @@
 {
 	"template": {
-		"name": "MeetGavernWP",
-		"update_name": "gk_meetgavern_wp",
-		"date": "22/04/2016",
-		"version": "1.16",
-		"description": "Free GavickPro Wordpress theme based on the GavernWP framework"
+                "name": "Meet Paper Legacy",
+                "update_name": "gk_meetpaper_legacy",
+                "date": "22/04/2016",
+                "version": "1.16",
+                "description": "Legacy version of the Paper theme built on the GavernWP framework"
 	},
 	"developer_config": {
 		"visibility": {

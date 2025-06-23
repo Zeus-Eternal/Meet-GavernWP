@@ -11,6 +11,7 @@ Features
 * Configurable styles through a feature‑rich `theme.json`.
 * Robust typography, layout, and color controls including dark mode.
 * Configurable styles through theme.json.
+* Vector based SVG logos replace the old raster images.
 * Responsive design out of the box.
 * Optional Web3-powered login and NFT support.
 
