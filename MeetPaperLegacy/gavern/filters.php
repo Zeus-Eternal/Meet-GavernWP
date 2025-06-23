@@ -242,7 +242,7 @@ function gavern_die_handler() {
 
 function gavern_custom_die_handler( $message, $title = '', $args = array() ) {
         if(!defined('GKTPLNAME')) {
-                define('GKTPLNAME', 'MeetPaperLegacy');
+                define('GKTPLNAME', 'meetpaperlegacy');
         }
 	
 	$defaults = array( 'response' => 404 );

@@ -15,8 +15,8 @@
 			{
 				"name": "template_footer_logo",
 				"type": "Switcher",
-				"label": "Logo no rodapé do GavernWP",
-				"tooltip": " Enable display of the GavernWP logotipo in the theme footer.",
+        "label": "Logo no rodapé do Paper",
+        "tooltip": " Habilita a exibição do logotipo Paper no rodapé do tema.",
 				"default": "Y",
 				"class": "",
 				"visibility": ""

@@ -150,8 +150,8 @@ msgid "Back to top"
 msgstr "Ir para o Topo"
 
 #: gavern/options.importexport.php:29 gavern/layouts/template.php:28
-msgid "Based on the Gavern WP framework"
-msgstr "Baseado no Gavern WP framework"
+msgid "Based on the Paper framework"
+msgstr "Baseado no framework Paper"
 
 #: archive.php:25
 msgid "Blog Archives"

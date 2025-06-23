@@ -240,7 +240,7 @@ msgid   "Backup Template Settings"
 msgstr  ""
 
 #: gavern/layouts/template.php:28 gavern/options.importexport.php:29
-msgid   "Based on the Gavern WP framework"
+msgid   "Based on the Paper framework"
 msgstr  ""
 
 #: gavern/widgets.nsp.php:482

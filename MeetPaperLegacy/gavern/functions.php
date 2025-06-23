@@ -37,8 +37,8 @@ if(!function_exists('gavern_admin_menu')) {
 			$icon_path = get_option($tpl->name . "_branding_admin_page_image");
 		}
 		// creating main menu item for the template settings
-		$plugin_page = add_menu_page(
-			'GavernWP Framework', 
+  $plugin_page = add_menu_page(
+          'Paper Framework',
 			$tpl->config['template']->name, 
 			'manage_options',
 			'gavern-menu', 

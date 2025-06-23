@@ -17,7 +17,7 @@
         // Add a button that opens a window
         editor.addButton( 'gavern_shortcode_button', {
             type: 'menubutton',
-            title: 'Insert GavernWP Shortcode',
+            title: 'Insert Paper Shortcode',
             icon: icon_url,
            	menu: menu
         } );

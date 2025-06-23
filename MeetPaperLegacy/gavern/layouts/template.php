@@ -25,7 +25,7 @@ if(isset($_COOKIE[GKTPLNAME . '_active_tab']) && is_numeric($_COOKIE[GKTPLNAME .
 
 <div class="gkWrap" id="gkMainWrap" data-theme="<?php echo GKTPLNAME; ?>">	
 	<h1>
-		<big><?php echo $tpl->full_name; ?></big><small><?php _e('Based on the Gavern WP framework', GKTPLNAME); ?><span><?php echo __('Version: ', GKTPLNAME) . '<strong>' . $tpl->version . '</strong>'; ?></span></small>
+    <big><?php echo $tpl->full_name; ?></big><small><?php _e('Based on the Paper framework', GKTPLNAME); ?><span><?php echo __('Version: ', GKTPLNAME) . '<strong>' . $tpl->version . '</strong>'; ?></span></small>
 	
 		<a href="customize.php?theme=<?php echo $tpl->full_name; ?>" title="<?php _e('Customize theme', GKTPLNAME); ?>"><?php _e('Customize theme', GKTPLNAME); ?></a>
 	

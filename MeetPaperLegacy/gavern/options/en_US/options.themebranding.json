@@ -15,8 +15,9 @@
 			{
 				"name": "template_footer_logo",
 				"type": "Switcher",
-				"label": "GavernWP Logo in the footer",
-				"tooltip": "Enable display of the GavernWP logo in the theme footer.",
+        "label": "Paper Logo in the footer",
+        "tooltip": "Enable display of the Paper logo in the theme footer.",
+
 				"default": "Y",
 				"class": "",
 				"visibility": ""
