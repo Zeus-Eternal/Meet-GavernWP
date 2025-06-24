@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Connect Wallet Banner
- * Slug: meet-paper/connect-wallet
- * Categories: featured
+ * Slug: agustealo/connect-wallet
+ * Categories: cta
  */
 ?>
 
