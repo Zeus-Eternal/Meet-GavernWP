@@ -18,7 +18,8 @@
     },
     "layout": {
       "contentSize": "650px",
-      "wideSize": "1200px"
+      "wideSize": "1200px",
+      "allowEditing": true
     },
     "spacing": {
       "units": ["px", "em", "rem", "%", "vh", "vw"],
@@ -27,6 +28,7 @@
     "typography": {
       "customFontSize": true,
       "customLineHeight": true,
+      "letterSpacing": "0em",
       "fontFamilies": [
         {"slug": "system", "fontFamily": "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif", "name": "System"},
         {"slug": "serif", "fontFamily": "Georgia, serif", "name": "Serif"}
